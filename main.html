@@ -10,7 +10,31 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<form method="post">
+	<label for="name">Name</label>
+	<input type="text" id="name" required>
+	<label for="email">Email</label>
+	<input type="Email" id="email" required>
+	<label>Gender</label>
+	<input type="radio" name="gender" value="female" required>
+	<input type="radio" name="gender" value="male" required>
+	<input type="radio" name="gender" value="other" required>
+	<label for="laptop">Laptop Brands</label>
+	<select id="laptop">
+		<option value="Apple">Apple</option>
+		<option value="Asus">Asus</option>
+		<option value="HP">HP</option>
+	</select>
+	<label for="age">Age</label>
+	<input type="number" id="age" required>
+	<label for="dob">Date of Birth</label>
+	<input type="Date" id="dob" required>
+	<label for="password">Password</label>
+	<input type="Password" id="password" required>
+	<label for="portfolio">Portfolio URL</label>
+	<input type="URL" id="portfolio">
+	<button type="submit">submit</button>
+</form>
 </body>
 
 </html>
